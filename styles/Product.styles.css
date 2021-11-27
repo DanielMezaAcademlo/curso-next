@@ -1,0 +1,31 @@
+.product_img {
+  border: 2px solid #000;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .product_img {
+    border: 2px solid #000;
+    width: 32%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.product_img div p {
+  border-radius: 2rem;
+}
+
+.product-container img {
+  width: 40%;
+}
+
+.summary {
+  border: 1px solid #a5a5a5;
+  border-radius: 10px;
+}
+
+.summary p {
+  border-bottom: 1px solid #a5a5a5;
+}
